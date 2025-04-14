@@ -16,13 +16,13 @@ builds:
       - -tags=timetzdata
     goos:
       - linux
-      - windows
-      - darwin
+      #- windows
+      #- darwin
     goarch:
       - amd64
       - arm64
-      - ppc64le
-      - s390x
+      #- ppc64le
+      #- s390x
     ignore:
       - goos: windows
         goarch: arm64
